@@ -1,0 +1,25 @@
+body{
+background-color:darkgreen
+}
+
+.heading{
+  text-align: center;
+  color:black;
+}
+
+#homeButton{
+  position:relative;
+  left:95%;
+}
+
+#spendingMoney{
+  border: 1px solid black;
+  position: relative;
+  top: 120%;
+  padding: 2px;
+  width: 45px
+}
+
+.headingDiv{
+  padding-bottom:10%
+}
