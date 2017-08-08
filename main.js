@@ -8,8 +8,7 @@ window.onload = function() {
       console.log(rng);
     document.getElementById('result').innerHTML = rng;
       console.log(document.getElementById('result'))
-
-
+    
 }
 
 
