@@ -1,0 +1,10 @@
+body{
+  background-color: red;
+  color: green;
+
+}
+
+div{
+  position:fixed;
+  left:45%;
+}

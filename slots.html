@@ -1,2 +1,33 @@
 <!DOCTYPE html>
-  <h3>Slots</h3>
+  <head>
+    <link rel='stylesheet' href = 'main.css'>
+    <script src='slots.js'></script>
+  </head>
+
+  <body>
+    <div class='headingDiv'>
+      <h2 class='heading'>Slots</h2>
+      <a href="./home.html"><button id="homeButton"><p>Home</p></button></a>
+      <p id="spendingMoney"></p>
+    </div>
+
+    <div id='slotMachine'>
+      <div class='slot'>
+        <p class='slotText' id='number1'></p>
+      </div>
+      <div class='slot'>
+        <p class='slotText' id='number2'></p>
+      </div>
+      <div class='slot'>
+        <p class='slotText' id='number3'></p>
+      </div>
+      <div class='slot'>
+        <p class='slotText' id='number4'></p>
+      </div>
+    </div>
+    <div>
+      <button id='pull'>Pull!</button>
+    </div>
+
+    <div id='result'></div>
+  </body>

@@ -12,14 +12,66 @@ background-color:darkgreen
   left:95%;
 }
 
+#lockIn:hover{
+  background-color:blue;
+  transition: 3s;
+}
+
 #spendingMoney{
   border: 1px solid black;
   position: relative;
   top: 120%;
   padding: 2px;
-  width: 45px
+  width: 90px;
+  text-align: center;
 }
 
 .headingDiv{
   padding-bottom:10%
+}
+
+#slotMachine{
+  width:400px;
+  height:250px;
+  outline: 1px solid black;
+  display:inline-block;
+  padding:0;
+  margin:0;
+  font-size: 0;
+}
+
+.slot{
+  width:100px;
+  height:100%;
+  outline: 1px solid black;
+  font-size: 30px;
+  display:inherit;
+  text-align: center;
+}
+
+.slotText{
+  position: relative;
+  top:50%;
+  transform: translateY(-100%);
+  margin:0;
+}
+
+#number1{
+
+}
+
+#number2{
+
+}
+
+#number3{
+
+}
+
+#number4{
+
+}
+
+#welcome{
+  color:red;
 }
